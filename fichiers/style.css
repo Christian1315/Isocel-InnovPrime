@@ -1,0 +1,145 @@
+
+/* GENERALITE */
+* {
+    font-family: 'Montserrat';
+}
+body{
+    font-family: 'Montserrat';
+}
+.formmulaire-form{
+    padding: 1.5rem!important;
+}
+ p, a, span, button,li{
+     font-size: 18px!important;
+ }
+
+ h1{
+    font-size: 22px!important;
+ }
+
+ h2, h3,h4,h5,h6{
+    font-size: 20px!important;
+ }
+
+body {
+    font-family: 'Montserrat';
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+/* HEADER */
+span.navbar-toggler-icon{
+  color: #05519c;
+}
+#navbarSupportedContent {
+    margin-left: 100px;
+}
+
+#navbarSupportedContent a {
+    color: #000;
+}
+
+#navbarSupportedContent a.active {
+    color: #42a62a !important;
+}
+
+/* === CUSTUM STYLE */
+button.custom-button {
+    background-color: #05519c;
+    color: #fff;
+    border-color: #05519c;
+}
+
+button.custom-button:hover {
+    background-color: #42a62a;
+    color: #fff;
+    border-color: #42a62a;
+    transition: 0.7s;
+}
+
+a.custom-button,#list-tab a.active{
+    background-color: #05519c;
+    color: #fff;
+    border-color: #05519c;
+}
+
+a.custom-button:hover {
+    background-color: #42a62a;
+    color: #fff;
+    border-color: #42a62a;
+    transition: 0.7s;
+}
+
+
+
+/* ***** LOGIN PAGE****** */
+
+#loginForm {
+    margin-top: 100px !important;
+}
+
+#loginForm a {
+    color: #42a62a;
+}
+
+/* ***** SIGNUP FORMULAIRE** */
+#signUpForm {
+    margin-top: 100px !important;
+}
+
+select.form-select option:hover {
+    background-color: #42a62a;
+}
+
+/* **** SUIVI DE COMMANDE */
+#commande {
+    margin-top: 100px;
+}
+
+/***** SERVICES PAGE */
+#services {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+#services .card{
+    border-radius: 20px;
+}
+
+#services .card img {
+    height: 250px !important;
+}
+
+#services .card p {
+    text-align: justify !important;
+}
+
+#after-services{
+    margin: 100px auto;
+}
+
+/***** RENOUVELLEMENT PAGE *****/
+#renouvellement {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#renouvellement.card-title {
+    font-weight: bold;
+}
+
+#renouvellement .card p {
+    text-align: justify !important;
+}
+
+#renouvellement h5.price{
+    background-color: #05519c;
+    padding: 10px 0px;
+    color: #fff;
+}
+#renouvellement .card{
+    border-radius: 20px;
+}

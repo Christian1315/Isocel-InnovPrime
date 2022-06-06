@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/isocel_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="fichiers/style.css">
+    <link rel="stylesheet" href="fichiers/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>INDEX | APP</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <!-- HEADER -->
+        <div class="row bg-light shadow-sm">
+            <div class="col">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <nav class="navbar navbar-expand-lg navbar-light">
+                                <div class="container-fluid">
+                                    <a class="navbar-brand" href="#">
+                                        <img src="images/isocel_logo.png" alt="logo" srcset="">
+                                    </a>
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <form action="" method="post" class="formmulaire-form">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="email">Email or Phone</label>
+                                                    <input type="email" name="" id="" class="form-control">
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <label for="password">Mot de passe</label>
+                                                    <input type="password" name="" id="" class="form-control">
+                                                    <a href="#" class="custom-button text-white">Mot de passe oublié
+                                                        ?</a>
+                                                </div>
+                                                <div class="col-md-2 mt-4">
+                                                    <a href="login.html"
+                                                        class="btn custom-button text-white">Connexion</a>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section après bannière -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="container my-4">
+                    <div class="row mt-5">
+                        <div class="col-md-6">
+                            <h1 class="text uppercase mb-5 text-center">Bienvenue sur l'application Isocel</h1>
+                            <img src="images/man3-removebg-preview.png" class="mt-5" alt="" srcset="">
+                        </div>
+                        <div class="col-md-6">
+                            <form class=" p-3 mb-5 bg-body rounded">
+                                <!-- ECRAN GRAND -->
+                                <h1 class="text-center  d-none d-sm-block "> <span> <img src="images/sign-up.png"
+                                            width="50px" alt="" srcset=""> </span>Créer votre compte <span> <img
+                                            src="images/add-friend.png" width="50px" alt="" srcset=""> </span></h1>
+                                <!-- ECRAN PETIT -->
+                                <h6 class="text-center  d-block d-sm-none"> <span> <img src="images/sign-up.png"
+                                            width="20px" alt="" srcset=""> </span>Créer votre compte <span> <img
+                                            src="images/add-friend.png" width="20px" alt="" srcset=""> </span></h6>
+
+                                <!-- <h6 class="text-center">🦾Créer votre compte🚀</h6> -->
+                                <div class="row mt-5">
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Nom" aria-label="Nom">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Prénom"
+                                            aria-label="Prénom">
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-12">
+                                        <input type="text" class="form-control"
+                                            placeholder="Numéro de téléphone ou Email"
+                                            aria-label="Numéro de téléphone ou Email">
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-12">
+                                        <input type="password" class="form-control" placeholder="Mot de pase"
+                                            aria-label="Mot de pase">
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-12">
+                                        <input type="password" class="form-control"
+                                            placeholder="Confirmez votre mot de passe" aria-label="Mot de pase">
+                                    </div>
+                                </div>
+
+                                <label for="" class="text-center">Date de naissance🧨</label>
+                                <div class="row mt-3">
+                                    <div class="col-md-12">
+                                        <input type="date" name="" class="form-control" id="">
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-3"></div>
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                        id="flexRadioDefault1">
+                                                    <label class="form-check-label" for="flexRadioDefault1">
+                                                        Homme
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-check ml-5">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                        id="flexRadioDefault2" checked>
+                                                    <label class="form-check-label" for="flexRadioDefault2">
+                                                        Femme
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3"></div>
+                                </div>
+                                <textarea disabled class="form-control text-justify-left" name="" id="" rows="5">
+                                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit aliquam id error veniam unde odio labore, pariatur cumque rerum et a optio consequatur consequuntur ex officiis accusantium delectus amet cum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eos aperiam cupiditate ducimus ad quam consequuntur impedit a facere ex recusandae suscipit at tempora sed minima fugit. Perferendis, quis nemo?
+                                       </textarea>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                        checked>
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Accepter nos conditions d'utilisation
+                                    </label>
+                                </div>
+                                <a class="btn custom-button mt-3" href="login.html">Enregistrer</a> <br>
+                                <span><a href="login.html">Se connecter</a> 👌</span>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="row bg-light border-top pt-3">
+            <div class="col-12 ">
+                <footer class="">
+                    <div class="align-items-center ">
+                        <p class="text-center">&copy; 2022 Copyright | Réalisé par Innov'Prime</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="fichiers/bundle.min.js"></script>
+
+</body>
+
+</html>
